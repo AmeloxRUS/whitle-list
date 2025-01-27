@@ -1,7 +1,7 @@
 local player = game.Players.LocalPlayer
 -- Zaktualizowana whitelist z dodatkowymi nickami
 local whitelist = {
-"Wojtes_BMW", "123Wojtes_BMW", "1233WojtesBMW", "Madhya78",
+"Wojtes_BMW", "Madhya78", "anothernick", "Miram5555", "Koroche84", "papanaruto4", ""
 
 
 
@@ -14,7 +14,7 @@ end
 -- YES U ARE
 local function isNIGAWHITE(username)
 local normalizedName = normalizeUsername(username)
-for , whitelistedName in ipairs(whitelist) do
+for _,whitelistedName in ipairs(whitelist) do
 if normalizeUsername(whitelistedName) == normalizedName then
 return true
 end
@@ -26,5 +26,5 @@ if isNIGAWHITE(player.Name) then
 print("Whitelisted: " .. player.Name)
 else
 print(player.Name .. " is not on the whitelist. Kicking...")
-player:Kick("You are not on the whitelist. Please contact support for assistance.")
+player:Kick("You are not on the whitelist. Please contact support for assistance. Discord vantus_men.ters1")
 end

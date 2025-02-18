@@ -1,7 +1,7 @@
 local player = game.Players.LocalPlayer
 -- Zaktualizowana whitelist z dodatkowymi nickami
 local whitelist = {
-"Wojtes_BMW", "Madhya78", "anothernick", "Miram5555", "Koroche84", "papanaruto4", "SnUsOeD_XXL", "2324VIP1", "LiteTopRus", ""
+"Wojtes_BMW", "Madhya78", "anothernick", "Miram5555", "Koroche84", "papanaruto4", "SnUsOeD_XXL", "2324VIP1", "LiteTopRus", "LoDiloCilokaNoromka", ""
 
 
 
@@ -26,5 +26,5 @@ if isNIGAWHITE(player.Name) then
 print("Whitelisted: " .. player.Name)
 else
 print(player.Name .. " is not on the whitelist. Kicking...")
-player:Kick("You are not on the whitelist. Please contact support for assistance. Discord vantus_men.ters1")
+player:Kick("You are not on the whitelist. Please contact support for assistance. Discord vantus_men.ters2")
 end
